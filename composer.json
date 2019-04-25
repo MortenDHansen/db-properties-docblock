@@ -17,5 +17,10 @@
     "require": {
         "barryvdh/reflection-docblock": "^2.0",
         "doctrine/dbal": "2.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mortendhansen\\db-properties-docblock\\": "src"
+        }
     }
 }
