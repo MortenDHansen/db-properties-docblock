@@ -1,11 +1,11 @@
 <?php
-
+namespace mortendhansen\DDPropertiesDocblock;
 use Barryvdh\Reflection\DocBlock;
 use Barryvdh\Reflection\DocBlock\Context;
 use Barryvdh\Reflection\DocBlock\Tag;
 use Barryvdh\Reflection\DocBlock\Serializer as DocBlockSerializer;
 
-class genModelsDocBlock
+class GenerateDocblock
 {
     private $properties;
     private $nullableColumns;
