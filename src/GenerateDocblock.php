@@ -1,4 +1,5 @@
 <?php
+namespace mortendhansen\db-properties-docblock;
 
 use Barryvdh\Reflection\DocBlock;
 use Barryvdh\Reflection\DocBlock\Context;
