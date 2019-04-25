@@ -1,0 +1,21 @@
+{
+    "name": "mortendhansen/db-properties-docblock",
+    "description": "Creates dockblock from database table for models",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morten D. Hansen",
+            "email": "morten@visia.dk"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "5.6"
+        }
+    },
+    "require": {
+        "barryvdh/reflection-docblock": "^2.0",
+        "doctrine/dbal": "2.5.*"
+    }
+}
